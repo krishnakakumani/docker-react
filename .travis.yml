@@ -8,5 +8,6 @@ before_install:
 
 script:
   - docker run -e CI=true kotinephew/docker-react npm run test -- --coverage
+  
 
 
